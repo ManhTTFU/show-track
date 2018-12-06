@@ -1,15 +1,19 @@
 <template>
   <div>
-    <input v-model="input">
-    {{ input }}
+    <Header/>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
+import Header from '../components/Header.vue';
 // import { reverseString } from '~/core/utils'
 
-@Component
+@Component({
+  components: {
+    Header
+  }
+})
 export default class extends Vue {
   public input = 'TypeScript';
 

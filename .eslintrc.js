@@ -3,5 +3,8 @@ module.exports = {
   parserOptions: {
     parser: 'typescript-eslint-parser'
   },
-  extends: ['eslint:recommended', 'plugin:vue/recommended', 'typescript']
-}
+  extends: ['eslint:recommended', 'plugin:vue/recommended', 'typescript'],
+  rules: {
+    'vue/max-attributes-per-line': 0
+  }
+};
