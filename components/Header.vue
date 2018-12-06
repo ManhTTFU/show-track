@@ -49,7 +49,7 @@ export default class Header extends Vue {}
 </script>
 <style lang="scss" scoped>
 .header {
-  border-bottom: 0px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
   .nav-title {
     color: #ba68c8;
   }

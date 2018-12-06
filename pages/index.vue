@@ -1,17 +1,20 @@
 <template>
   <div>
     <Header/>
+    <Information/>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
 import Header from '../components/Header.vue';
+import Information from '../components/Information.vue';
 // import { reverseString } from '~/core/utils'
 
 @Component({
   components: {
-    Header
+    Header,
+    Information
   }
 })
 export default class extends Vue {
