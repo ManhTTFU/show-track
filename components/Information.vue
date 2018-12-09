@@ -7,7 +7,7 @@
             <h1 class="track-show">Track your shows
               <br>automatically
             </h1>
-            <p>With ShowTrackr you can track your favorite TV shows
+            <p class="track-content">With ShowTrackr you can track your favorite TV shows
               <br>automatically, so you never loose track of
               <br>your TV shows ever again. 🍿
             </p>
@@ -23,11 +23,24 @@
                 <span id="basic-addon2" class="input-group-text">Start tracking</span>
               </div>
             </div>
+            <div>
+              <p>Compatible with</p>
+              <div>
+                <img class="img-fluid" src="../assets/img/netflix.png">
+                <img class="img-fluid" src="../assets/img/apple.png">
+                <img class="img-fluid" src="../assets/img/android.png">
+                <img class="img-fluid" src="../assets/img/windows.png">
+                <img class="img-fluid" src="../assets/img/synology.png">
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="group-3">
             <img class="img-fluid group-3" src="../assets/img/Group-3.png">
+          </div>
+          <div class="iphone">
+            <img class="img-fluid" src="../assets/img/iphone-x-mockup.png">
           </div>
         </div>
       </div>
@@ -38,8 +51,13 @@
 .track-left {
   margin-top: 120px;
   .track-show {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 70px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  .track-content {
+    font-size: 21px;
+    margin-bottom: 30px;
   }
 }
 input.form-control {
@@ -52,7 +70,13 @@ input.form-control {
 }
 .group-3 {
   position: relative;
-  height: 85%;
-  right: -175px;
+  height: 100%;
+  left: 132px;
+  max-width: 100%;
+}
+.iphone {
+  top: 36px;
+  left: 90px;
+  position: absolute;
 }
 </style>
