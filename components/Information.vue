@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="information">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -23,10 +23,10 @@
                 <span id="basic-addon2" class="input-group-text">Start tracking</span>
               </div>
             </div>
-            <div>
+            <div class="product">
               <p>Compatible with</p>
               <div>
-                <img class="img-fluid" src="../assets/img/netflix.png">
+                <img class="img-fluid net-flix" src="../assets/img/netflix.png">
                 <img class="img-fluid" src="../assets/img/apple.png">
                 <img class="img-fluid" src="../assets/img/android.png">
                 <img class="img-fluid" src="../assets/img/windows.png">
@@ -48,6 +48,9 @@
   </div>
 </template>
 <style lang="scss" scoped>
+.information {
+  margin-bottom: 60px;
+}
 .track-left {
   margin-top: 120px;
   .track-show {
@@ -59,14 +62,29 @@
     font-size: 21px;
     margin-bottom: 30px;
   }
+  .product {
+    margin-top: 120px;
+    p {
+      color: #979797;
+      text-transform: uppercase;
+      font-size: 15px;
+    }
+    img {
+      margin-left: 22px;
+    }
+    .net-flix {
+      margin-left: 0;
+    }
+  }
 }
 input.form-control {
-  max-width: 45%;
+  max-width: 60%;
   height: 50px;
 }
 .input-group-text {
   background-color: #540cfa;
   color: #fff;
+  font-weight: bold;
 }
 .group-3 {
   position: relative;
