@@ -49,7 +49,7 @@
 </template>
 <style lang="scss" scoped>
 .information {
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 .track-left {
   margin-top: 120px;
