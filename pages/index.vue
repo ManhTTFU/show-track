@@ -4,6 +4,7 @@
     <Information/>
     <Features/>
     <Getstart/>
+    <Platform/>
     <Community/>
   </div>
 </template>
@@ -15,6 +16,7 @@ import Information from '../components/Information.vue';
 import Features from '../components/Features.vue';
 import Getstart from '../components/GetStart.vue';
 import Community from '../components/Community.vue';
+import Platform from '../components/Platform.vue';
 // import { reverseString } from '~/core/utils'
 
 @Component({
@@ -23,7 +25,8 @@ import Community from '../components/Community.vue';
     Information,
     Features,
     Getstart,
-    Community
+    Community,
+    Platform
   }
 })
 export default class extends Vue {
