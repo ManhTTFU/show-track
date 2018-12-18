@@ -17,6 +17,22 @@
                   Customized Dashboard
                 </div>
               </div>
+              <div class="automatic">
+                <div class="cus-img">
+                  <img class="img-fluid" src="../assets/img/Shape.png">
+                </div>
+                <div class="title-automatic">
+                  Automatic Day & Night Modes
+                </div>
+              </div>
+              <div class="automatic">
+                <div class="cus-img">
+                  <img class="img-fluid" src="../assets/img/Shape.png">
+                </div>
+                <div class="title-automatic">
+                  Integrated Chat Platform
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -53,6 +69,7 @@
   position: relative;
   left: 65px;
   max-width: 100%;
+  display: block;
 }
 .iphone {
   top: -302px;
@@ -74,6 +91,50 @@
     align-self: center;
     margin-left: 10px;
     font-weight: bold;
+  }
+}
+.automatic {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  .cus-img {
+    margin-left: 10px;
+    align-self: center;
+  }
+  .title-automatic {
+    align-self: center;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #bdbdbd;
+  }
+}
+
+@media (max-width: 576px) {
+  .platform {
+    margin-top: 40px;
+    .left-platform {
+      margin-top: 50px;
+      .title-platform {
+        font-size: 35px;
+        margin-bottom: 30px;
+      }
+      .content-platform {
+        font-size: 18px;
+        color: #000000;
+        font-weight: 300;
+      }
+    }
+  }
+  .group-3 {
+    position: relative;
+    left: 65px;
+    max-width: 100%;
+    display: none;
+  }
+  .iphone {
+    top: 35px;
+    left: 0px;
+    position: relative;
   }
 }
 </style>

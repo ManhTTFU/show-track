@@ -68,7 +68,7 @@ export default class Feature extends Vue {
 </script>
 <style lang="scss" scoped>
 .logo {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   .customized {
     font-size: 60px;
     font-weight: bold;
@@ -87,6 +87,25 @@ export default class Feature extends Vue {
   }
   .img-left {
     margin-left: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .logo {
+    .customized {
+      font-size: 42px;
+      line-height: 40px;
+    }
+  }
+  .learn-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    p {
+      color: #6198f8;
+    }
+    .img-left {
+      margin-left: 10px;
+    }
   }
 }
 </style>

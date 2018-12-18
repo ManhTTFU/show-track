@@ -59,4 +59,38 @@
     font-weight: bold;
   }
 }
+
+@media (max-width: 576px) {
+  .get-start {
+    margin-top: 40px;
+    .title {
+      font-size: 18px;
+      color: #d8d8d8;
+    }
+    .title-tracking {
+      font-size: 42px;
+      line-height: 40px;
+    }
+    .content {
+      font-size: 18px;
+    }
+    .input-group.text-center {
+      /* max-width: 50%; */
+      display: flex;
+      text-align: center;
+      /* align-items: center; */
+      justify-content: center;
+      margin-top: 20px;
+    }
+    input.form-control {
+      max-width: 60%;
+      height: 50px;
+    }
+    .input-group-text {
+      background-color: #540cfa;
+      color: #fff;
+      font-weight: bold;
+    }
+  }
+}
 </style>

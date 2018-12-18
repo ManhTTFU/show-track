@@ -97,4 +97,40 @@ input.form-control {
   left: 90px;
   position: absolute;
 }
+
+@media (max-width: 576px) {
+  .track-left {
+    margin-top: 20px;
+    .track-show {
+      font-size: 42px;
+      line-height: 40px;
+    }
+    .track-content {
+      font-size: 18px;
+    }
+    .product {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      img {
+        margin-left: 10px;
+      }
+      .net-flix {
+        margin-left: 5px;
+      }
+    }
+  }
+  .group-3 {
+    position: relative;
+    height: 100%;
+    left: 75px;
+    max-width: 100%;
+  }
+  .iphone {
+    top: 36px;
+    left: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+}
 </style>

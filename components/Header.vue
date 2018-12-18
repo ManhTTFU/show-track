@@ -2,7 +2,7 @@
   <div class="header">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-show-track navbar-light">
-        <a class="navbar-brand nav-title" href="#">ShowTrack</a>
+        <a class="navbar-brand nav-title" href="#">Show<strong class="bold-track">Track</strong></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -29,7 +29,7 @@
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <div>
-              <button class="btn-login btn-lg my-2 my-sm-0" type="submit">Login</button>
+              <a href="#" class="btn-login">Login</a>
             </div>
             <div>
               <button class="btn-start btn-lg my-2 my-sm-0" type="submit">Get Started</button>
@@ -51,17 +51,18 @@ export default class Header extends Vue {}
 .header {
   border-bottom: 1px solid #f5f5f5;
   .nav-title {
-    color: #ba68c8;
+    font-weight: bold;
+  }
+  .bold-track {
+    color: #540cfa;
   }
 }
 .nav-link {
   color: #263238;
 }
 .btn-login {
-  color: #fff;
-  margin-right: 10px;
-  background-color: #540cfa;
-  border: #540cfa;
+  margin-right: 20px;
+  color: #263238;
 }
 .btn-start {
   background-color: #540cfa;
